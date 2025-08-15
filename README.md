@@ -1,6 +1,6 @@
 # Intune Baseline Policy Documentation
 
-This repository contains documentation for all baseline Intune policies applied across managed environments.  
+This repository contains documentation for all baseline Intune policies applied across managed Intune Environments.  
 Each document explains the purpose, configuration, and impact of the policy for easy reference by clients and internal teams.
 
 ---
