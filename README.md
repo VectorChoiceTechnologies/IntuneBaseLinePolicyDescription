@@ -7,7 +7,7 @@ Each document explains the purpose, configuration, and impact of the policy for 
 
 ## 📂 Policy Index
 
-### Reuired Polices
+### Required Polices
 | Policy Name | Platform | Type | Purpose |
 |-------------|----------|------|------|
 | **[Win - OIB - ES - Encryption - D - BitLocker (OS Disk) - v3.0](https://github.com/VectorChoiceTechnologies/IntuneBaseLinePolicyDescription/blob/main/Intune%20Endpoint%20Security%20%E2%80%93%20BitLocker%20Policy.md#intune-endpoint-security--bitlocker-policy)** | Windows 10 and later | Endpoint Security – Disk Encryption (BitLocker) | Enforces encryption settings for the Operating System (OS) drive to protect data in case of device loss or theft.|
