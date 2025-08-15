@@ -17,6 +17,7 @@ Each document explains the purpose, configuration, and impact of the policy for 
 ### Optional Polices
 | Policy Name | Platform | Type | Purpose |
 |-------------|----------|------|------|
+| **[Win - OIB - SC - Microsoft Edge - U - Profiles, Sign-In and Sync - v3.0](https://github.com/VectorChoiceTechnologies/IntuneBaseLinePolicyDescription/blob/main/Intune%20Edge%20Policy%20-%20Profiles,%20Sign-In%20and%20Sync.md#intune-policy-documentation--edge-settings---profiles-sign-in-and-sync---v30)** | Windows 10 and later | Microsoft Edge Settings - Profiles, Sign-In, and Sync | To manage user profiles, sign-in behavior, and sync functionality in Microsoft Edge, ensuring secure, consistent browser configurations and controlled user experience.|
 ---
 
 ## 📌 How to Use This Documentation
