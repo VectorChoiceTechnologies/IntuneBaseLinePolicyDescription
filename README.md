@@ -1,44 +1,34 @@
-# Intune Endpoint Security – BitLocker Policy
+# Intune Baseline Policy Documentation
 
-**Policy Name:** Win - OIB - ES - Encryption - D - BitLocker (OS Disk) - v3.0  
-**Platform:** Windows 10 and later  
-**Policy Type:** Endpoint Security – Disk Encryption (BitLocker)  
-**Purpose:** Enforces encryption settings for the Operating System (OS) drive to protect data in case of device loss or theft.
+This repository contains documentation for all baseline Intune policies applied across managed environments.  
+Each document explains the purpose, configuration, and impact of the policy for easy reference by clients and internal teams.
 
 ---
 
-## Policy Overview
-This policy ensures all organization-managed Windows devices have BitLocker enabled with standardized encryption settings for compliance, security, and recoverability. It applies to the OS drive (system drive) only.
+## 📂 Policy Index
+
+| Policy Name | Platform | Type | Link |
+|-------------|----------|------|------|
+| **Win - OIB - ES - Encryption - D - BitLocker (OS Disk) - v3.0** | Windows 10 and later | Endpoint Security – Disk Encryption (BitLocker) | [View Policy](https://github.com/VectorChoiceTechnologies/IntuneBaseLinePolicyDescription/blob/main/Intune%20Endpoint%20Security%20%E2%80%93%20BitLocker%20Policy.md#intune-endpoint-security--bitlocker-policy) |
+| **[Example] Windows Defender Antivirus Baseline** | Windows 10 and later | Endpoint Security – Antivirus | [View Policy](./Win-ES-Antivirus-Baseline.md) |
+| **[Example] Device Compliance – Password Requirements** | Windows 10 and later | Compliance Policy | [View Policy](./Win-Compliance-Password-Requirements.md) |
+| *(Add new rows here as you create policy docs)* | | | |
 
 ---
 
-## Configuration Details
-
-| Setting | Configured Value | Purpose / Effect |
-|---------|------------------|------------------|
-| **System Drive Encryption Type** | Full Encryption (XTS-AES 256-bit) | Encrypts the entire OS drive with strong encryption for maximum data protection. |
-| **Startup Authentication Requirement** | TPM only (no PIN or startup key required) | Simplifies user experience while still leveraging Trusted Platform Module (TPM) for secure key storage. |
-| **Change PIN Restriction** | Standard users cannot change BitLocker PINs | Prevents unauthorized modification of encryption credentials. |
-| **Recovery Options** | Recovery key required; recovery page hidden from users; Active Directory (or Azure AD) backup enforced | Ensures recovery keys are stored securely for IT access and prevents users from bypassing policy. |
-| **Encryption Method** | XTS-AES 256-bit for OS, fixed, and removable drives | Provides consistent encryption strength across all drive types. |
-| **Device Encryption Requirement** | Device must be encrypted | Prevents devices from operating without encryption enabled. |
-| **Other Disk Encryption Warning** | Disabled (standard users can start encryption) | Avoids unnecessary warnings if other encryption is present but still allows authorized encryption operations. |
-| **Recovery Password Rotation** | Enabled after use | Ensures recovery passwords are rotated for better security after they are used. |
+## 📌 How to Use This Documentation
+1. **Find the policy** in the table above.
+2. Click **View Policy** to open its detailed documentation.
+3. Review the **Configuration Details** and **Client Impact** to understand how it affects devices.
+4. Use as a reference for onboarding, audits, or compliance reporting.
 
 ---
 
-## Key Security Benefits
-- **Data Protection:** Protects all OS drive data at rest using enterprise-grade encryption.
-- **Compliance:** Meets common regulatory requirements (HIPAA, GDPR, CJIS, etc.).
-- **User Transparency:** Minimal disruption to end users while enforcing strong security.
-- **Recovery Assurance:** Recovery keys are securely backed up for IT use.
-- **Future-Proof Encryption:** Uses 256-bit encryption to meet evolving security standards.
+## 🛠 Maintenance
+- Add a new row to the table whenever a new baseline policy is created.
+- Keep links updated if file names change.
+- Store all policy files in the same directory as this README for link consistency.
 
 ---
 
-## Client Impact
-- Users will **not** need to manually enable BitLocker — it is enforced automatically.
-- Devices will encrypt in the background after policy application.
-- Users will not be prompted for additional startup authentication (TPM handles this securely).
-- If a device enters BitLocker recovery mode, IT will have the recovery key stored in Azure AD/Active Directory.
-- Recovery passwords will automatically rotate after use to prevent re-use.
+_Last Updated: {{date}}_
