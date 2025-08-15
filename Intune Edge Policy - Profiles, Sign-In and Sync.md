@@ -1,4 +1,4 @@
-# Intune Policy Documentation – Win - OIB - SC - Microsoft Edge - U - Profiles, Sign-In and Sync - v3.0
+# Intune Policy Documentation – Edge Settings - Profiles, Sign-In and Sync - v3.0
 
 **Policy Name:** Win - OIB - SC - Microsoft Edge - U - Profiles, Sign-In and Sync - v3.0  
 **Platform:** Windows 10  
