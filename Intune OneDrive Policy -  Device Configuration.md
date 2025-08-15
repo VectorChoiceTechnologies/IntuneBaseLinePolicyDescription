@@ -1,4 +1,4 @@
-# Intune Policy Documentation -  Device Configuration - v3.2
+# Intune Policy Documentation - OneDrive Device Configuration - v3.2
 
 **Policy Name:** Win - OIB - SC - Microsoft OneDrive - D - Configuration - v3.2  
 **Platform:** Windows 10  
