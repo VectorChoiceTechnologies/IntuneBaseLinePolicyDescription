@@ -7,7 +7,7 @@ Each document explains the purpose, configuration, and impact of the policy for 
 
 ## 📂 Policy Index
 
-### Required Polices
+### Required Configuration Polices
 | Policy Name | Platform | Type | Purpose |
 |-------------|----------|------|------|
 | **[Win - OIB - ES - Encryption - D - BitLocker (OS Disk) - v3.0](https://github.com/VectorChoiceTechnologies/IntuneBaseLinePolicyDescription/blob/main/Policies/Intune%20Endpoint%20Security%20%E2%80%93%20BitLocker%20Policy.md#intune-endpoint-security--bitlocker-policy)** | Windows 10 and later | Endpoint Security – Disk Encryption (BitLocker) | Enforces encryption settings for the Operating System (OS) drive to protect data in case of device loss or theft.|
@@ -16,10 +16,16 @@ Each document explains the purpose, configuration, and impact of the policy for 
 | **[Win - OIB - SC - Microsoft OneDrive - D - Configuration - v3.2](https://github.com/VectorChoiceTechnologies/IntuneBaseLinePolicyDescription/blob/main/Policies/Intune%20OneDrive%20Policy%20-%20%20Device%20Configuration.md#intune-policy-documentation----device-configuration---v32)** | Windows 10 and later | OneDrive Configuration - Device | To configure OneDrive for enterprise deployment, controlling tenant access, sync behavior, bandwidth management, silent account setup, and file handling to ensure security, compliance, and optimal performance. |
 | **[Win - OIB - SC - Microsoft OneDrive - U - Configuration - v3.0](https://github.com/VectorChoiceTechnologies/IntuneBaseLinePolicyDescription/blob/main/Policies/Intune%20OneDrive%20Policy%20-%20User%20Configuration.md#intune-policy-documentation---onedrive-user-configuration---v30)** | Windows 10 and later | OneDrive Configuration - User | To configure OneDrive user experience on Windows 10 devices, controlling file handling, tutorial prompts, root folder restrictions, and personal sync to maintain organizational compliance and prevent data leakage. |
 
-### Optional Polices
+
+### Optional Configuration Polices
 | Policy Name | Platform | Type | Purpose |
 |-------------|----------|------|------|
 | **[Win - OIB - SC - Microsoft Edge - U - Profiles, Sign-In and Sync - v3.0](https://github.com/VectorChoiceTechnologies/IntuneBaseLinePolicyDescription/blob/main/Policies/Intune%20Edge%20Policy%20-%20Profiles,%20Sign-In%20and%20Sync.md#intune-policy-documentation--edge-settings---profiles-sign-in-and-sync---v30)** | Windows 10 and later | Microsoft Edge Settings - Profiles, Sign-In, and Sync | To manage user profiles, sign-in behavior, and sync functionality in Microsoft Edge, ensuring secure, consistent browser configurations and controlled user experience.|
+
+### Required Configuration Polices
+| Policy Name | Platform | Type | Purpose |
+|-------------|----------|------|------|
+| **[Win - OIB - Compliance - U - Device Security - v3.1](https://github.com/VectorChoiceTechnologies/IntuneBaseLinePolicyDescription/blob/main/Policies/Intune%20Endpoint%20Security%20%E2%80%93%20BitLocker%20Policy.md#intune-endpoint-security--bitlocker-policy)** | Windows 10 and later | Compliance – Device Security | Ensures that Windows devices meet essential security compliance requirements such as password strength, encryption, and antimalware protection before they are allowed access to corporate resources.|
 ---
 
 ## 📌 How to Use This Documentation
