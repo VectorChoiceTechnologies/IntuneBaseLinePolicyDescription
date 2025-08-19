@@ -22,10 +22,10 @@ Each document explains the purpose, configuration, and impact of the policy for 
 |-------------|----------|------|------|
 | **[Win - OIB - SC - Microsoft Edge - U - Profiles, Sign-In and Sync - v3.0](https://github.com/VectorChoiceTechnologies/IntuneBaseLinePolicyDescription/blob/main/Policies/Intune%20Edge%20Policy%20-%20Profiles,%20Sign-In%20and%20Sync.md#intune-policy-documentation--edge-settings---profiles-sign-in-and-sync---v30)** | Windows 10 and later | Microsoft Edge Settings - Profiles, Sign-In, and Sync | To manage user profiles, sign-in behavior, and sync functionality in Microsoft Edge, ensuring secure, consistent browser configurations and controlled user experience.|
 
-### Required Configuration Polices
+### Required Compliance Polices
 | Policy Name | Platform | Type | Purpose |
 |-------------|----------|------|------|
-| **[Win - OIB - Compliance - U - Device Security - v3.1](https://github.com/VectorChoiceTechnologies/IntuneBaseLinePolicyDescription/blob/main/Policies/Intune%20Endpoint%20Security%20%E2%80%93%20BitLocker%20Policy.md#intune-endpoint-security--bitlocker-policy)** | Windows 10 and later | Compliance – Device Security | Ensures that Windows devices meet essential security compliance requirements such as password strength, encryption, and antimalware protection before they are allowed access to corporate resources.|
+| **[Win - OIB - Compliance - U - Device Security - v3.1](https://github.com/VectorChoiceTechnologies/IntuneBaseLinePolicyDescription/blob/main/Policies/Intune%20Compliance%20Policy%20-%20Default%20Device%20Security.md#intune-compliance-policy-documentation--device-security-compliance-policy---v31)** | Windows 10 and later | Compliance – Device Security | Ensures that Windows devices meet essential security compliance requirements such as password strength, encryption, and antimalware protection before they are allowed access to corporate resources.|
 ---
 
 ## 📌 How to Use This Documentation
